@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="calculator">
+            <h1>Calculator</h1>
+
+            <input type="number" id="numInput1" placeholder="Enter first number">
+            <input type="number" id="numInput2" placeholder="Enter second number">
+
+            <div id="result"></div>
+            <br>
+            <button id="addBtn" onclick="add()">+</button>
+            <button id="subtractBtn" onclick="subtract()">-</button>
+            <button id="divideBtn" onclick="divide()">/</button>
+            <button id="multiplyBtn" onclick="multiply()">x</button>
+            <button id="clearBtn" onclick="clearResult()">C</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
